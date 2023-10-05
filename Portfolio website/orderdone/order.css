@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+/* this is navbar csss */
+
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+.navbar-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Font Variables */
+/* No equivalent in pure CSS */
+
+/* Color variables */
+/* No equivalent in pure CSS */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.5;
+  }
+  
+  .main__layer {
+    align-items: center;
+    background-color: hsla(180deg, 0%, 90%, 1);
+    display: flex;
+    height: 40vh;
+    justify-content: center;
+    width: 100vw;
+  }
+  
+  .main__content {
+    align-items: center;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 10rem;
+    text-align: center;
+    
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  
+  .main__content:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  
+  .check {
+    fill: hsla(0deg, 100%, 50%, 1);
+  }
+  
+  .main__check {
+    border: 2px solid hsla(0deg, 100%, 50%, 1);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+  }
+  
+  .main__button {
+    border-radius: 15px;
+  }
+  
+  .myButton {
+    background-color: hsla(0deg, 100%, 50%, 1);
+    border: 1px solid #D40000; /* Darken the red color for border */
+    border-radius: 15px;
+    display: inline-block;
+    color: #ffffff;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 17px;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    color: hsla(0deg, 100%, 50%, 1);
+    padding-top: 40px;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 22px;
+  }
+  
+  p {
+    color: hsla(90deg, 10%, 15%, 1);
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 40px;
+  }
+  
+
+
+
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* CSS for links in the footer */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style for footer links on hover */
+footer a:hover {
+    text-decoration: underline;
+}

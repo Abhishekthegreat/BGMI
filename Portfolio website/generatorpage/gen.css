@@ -1,0 +1,179 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(8, 8, 87);
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    background-color: rgb(28 28 102);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+nav  .left_nav {
+    font-size: 1.4rem;
+}
+
+nav ul {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+/* this is banner csss */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    position: relative; /* Make the container relative for absolute positioning of the overlay */
+    background-image: url('/media/banner2.jpg'); /* Replace 'your-background-image.jpg' with the actual image file path */
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.banner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 2, 53, 0.836); /* Adjust the color and opacity here */
+}
+
+.banner-text {
+    max-width: 600px;
+    padding: 20px;
+    position: relative; /* Ensure that the text is on top of the overlay */
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff814a;
+}
+
+
+
+
+
+
+
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px 20px;
+    
+}
+
+.progress-container {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #53b1f0;
+    margin: auto;
+}
+
+.progress-bar {
+    width: 0;
+    height: 30px;
+    background-color: #007bff;
+    transition: width 0.5s ease-in-out;
+    position: relative;
+}
+
+.progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    font-weight: bold;
+}
+
+.progress-css {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+
+}
+
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* CSS for links in the footer */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style for footer links on hover */
+footer a:hover {
+    text-decoration: underline;
+}
